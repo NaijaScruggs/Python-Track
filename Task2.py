@@ -13,6 +13,8 @@ if __name__ == "__main__":
     result_3 = animals(5, 2, 8)
     print("We got this many legs: " + str(result_3))
 
+    print("Done!")
+
 
 
 
