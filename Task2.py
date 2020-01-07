@@ -16,6 +16,43 @@ if __name__ == "__main__":
     print("Done!")
 
 
+def workers(num1, num2, num3):
+    this_list = [num1, num2, num3]
+    high = num1
+    low = num1
+    for num in this_list:
+        if num < low:
+            low = num
+        if num > high:
+            high = num
+    return high - low
+
+
+print(workers(147, 33, 526))
+
+print(workers(33, 72, 74))
+
+print(workers(1, 5, 9))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
